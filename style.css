@@ -152,16 +152,48 @@ body{
 .services{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7),
-        url(https://i.ibb.co/LnFHWSV/hummingbird-2139279-640.jpg));
-        background-position: center center;
+        rgba(0,0,0,0.7)),
+        url(https://i.ibb.co/VCTWyCN/Whats-App-Image-2022-09-22-at-7-57-36-PM.jpg);
+        background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         padding: 100px 0;
 }
-
+.services-content{
+    text-align: center;
+}
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.services-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 100px;
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
     
+}
+.servicios-1{
+    padding: 0 100px;
+}
+.servicios-1 img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+.servicios-1 h3{
+    color: #bab2d0;
+    font-size: 28px;
+}
+
 
 
 
