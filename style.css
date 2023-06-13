@@ -19,9 +19,9 @@ body{
 
 .header{
     background-image: linear-gradient(
-        rgba(0,0,0,0,7),
-        rgba(0,0,0,0,7)),
-        url(https://i.ibb.co/J3xPGtz/purple-backed-thornbill.png);
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://i.ibb.co/LZYpsMv/IMG-20211013-120804-590.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ body{
 }
 
 .logo{
-    color: #430ae0;
+    color: #c6c1d4;
     font-size: 25px;
     font-weight: 800;
 }
@@ -53,7 +53,7 @@ body{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: #430ae0;
+    color: #bab2d0;
     display: block;
     font-weight: 600;
 }
@@ -73,6 +73,95 @@ body{
     cursor: pointer;
     display: none;
 }
+
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: rgb(5, 84, 84);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 16px;
+    color: aqua;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #8e5c07;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    background-color: #4d3b1e;
+}
+
+.yataros{
+    text-align: center;
+}
+/* background imagen 
+.yataros-content {
+    background-image: url(https://i.ibb.co/PcVnHSs/Captura-de-pantalla-131.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+.yataros-content{
+    text-align: center;
+}
+.yataros-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.yataros-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.yataros-1{
+    padding: 25px;
+}
+.yataros-1 img{
+    width: 200px;
+}
+.yataros-img{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.yataros-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7),
+        url(https://i.ibb.co/LnFHWSV/hummingbird-2139279-640.jpg));
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+    
 
 
 
